@@ -1,6 +1,6 @@
 # django-vue-rollup
 
-A django-compressor filter to compile .vue files using rollup.
+A django-compressor filter to compile .vue files using [rollup](https://rollupjs.org/guide/en/).
 
 ## Installation
 
