@@ -1,0 +1,7 @@
+.idea
+*.pyc
+*.egg-info
+env
+MANIFEST
+npm_prefix
+dist
