@@ -29,7 +29,7 @@ class NPMInstall2(install):
 
 setup(
     name='django-vue-rollup',
-    version='0.1.1',
+    version='0.1.2',
     description='A django-compressor filter to compile .vue files using rollup',
     author='Laura Klünder',
     author_email='laura@codingcatgirl.de',
