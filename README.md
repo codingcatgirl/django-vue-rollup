@@ -32,7 +32,7 @@ To include and compile .vue files, you can use a \<script> tag with the type tex
 ```html
 {% load compress %}
 
-{% compress css %}
+{% compress js %}
     <script type="text/vue" src="{% static 'myapp/js/my-vue-component.vue' %}"></script>
 {% endcompress %}
 ```
