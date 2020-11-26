@@ -10,7 +10,7 @@ class VueCompiler(CompilerFilter):
     def __init__(self, content, attrs, **kwargs):
         base_dir = os.path.dirname(os.path.abspath(__file__))
         node_path = os.path.join(base_dir, 'npm_prefix', 'node_modules')
-        rollup_bin = os.path.join(node_path, '.bin', 'rollup')
+        rollup_bin = os.path.join(node_path, 'rollup', 'dist', 'bin', 'rollup')
         rollup_config = os.path.join(base_dir, 'rollup.config.js')
         command = (
             ' '.join((
